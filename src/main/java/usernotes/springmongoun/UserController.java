@@ -1,10 +1,8 @@
 package usernotes.springmongoun;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-import org.springframework.web.bind.annotation.*;
 
+import org.springframework.web.bind.annotation.*;
 import java.util.List;
-import java.util.Optional;
 
 
 @RestController
@@ -17,7 +15,7 @@ public class UserController {
     }
 
     @GetMapping("/all")
-    public List<User> getAll(){
+    public List<User> getUsers() {
         List<User> Users= this.userR.findAll();
         return Users;
     }
