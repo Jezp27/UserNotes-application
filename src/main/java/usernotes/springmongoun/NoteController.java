@@ -33,11 +33,4 @@ public class NoteController {
        this.noteR.delete(note);
     }
 
-    //@GetMapping("/{id}")
-    //public User getById(@PathVariable("id") String id) {
-     //   Optional <User> us1 =this.userR.findById(id);
-      //      return us1;
-
-
-    //}
 }
