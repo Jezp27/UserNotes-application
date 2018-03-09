@@ -35,11 +35,4 @@ public class UserController {
        this.userR.delete(user);
     }
 
-    //@GetMapping("/{id}")
-    //public User getById(@PathVariable("id") String id) {
-     //   Optional <User> us1 =this.userR.findById(id);
-      //      return us1;
-
-
-    //}
 }
